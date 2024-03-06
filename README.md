@@ -1,6 +1,6 @@
 # TCS34725 Demo
 
-This demo connects to a TCS34725 colour sensor and allows the measured colour components to be obeserved using the Serial Monitor. If working properly, the RBGC values will vary when objects of different colours are placed in close proximity to the sensor. SW0 (S1-2) may be used to turn the illumination LEDs on the TCS34725 on and off.
+This demo connects to a TCS34725 colour sensor over the I2C bus and allows the measured colour components to be observed using the Serial Monitor. If working properly, the RBGC values will vary when objects of different colours are placed in close proximity to the sensor. SW0 (S1-2) may be used to turn the illumination LEDs on the TCS34725 on and off.
 
 ## Hardware Required
 
