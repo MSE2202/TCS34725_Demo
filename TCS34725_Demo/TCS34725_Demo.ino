@@ -20,7 +20,7 @@ void doHeartbeat();
 
 // Constants
 const int cHeartbeatInterval = 75;                                     // heartbeat update interval, in milliseconds
-const int cSmartLED          = 21;                                     // when DIP switch S1-4 is on, SMART LED is connected to GPIO21
+const int cSmartLED          = 23;                                     // when DIP switch S1-4 is on, SMART LED is connected to GPIO21
 const int cSmartLEDCount     = 1;                                      // number of Smart LEDs in use
 const int cSDA               = 18;                                     // GPIO pin for I2C data
 const int cSCL               = 19;                                     // GPIO pin for I2C clock
